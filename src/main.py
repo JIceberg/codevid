@@ -29,7 +29,7 @@ percent_change /= int(new_cases_yesterday[1:].replace(',', ''))
 
 fmt_str = "Total Cases:\t\t{}".format(total_cases)
 fmt_str += "\nCases Yesterday:\t\t{}".format(cases_yesterday)
-fmt_str += "\nNew Cases:\t\t{}\n".format(new_cases_yesterday)
+fmt_str += "\nNew Cases:\t\t{}\n".format(new_cases_today)
 fmt_str += "Percent Change:\t\t{:2.2%}".format(percent_change)
 
 print(fmt_str)
