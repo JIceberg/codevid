@@ -1,4 +1,4 @@
-name: CI
+name: Linting
 
 on:
   push:
@@ -8,7 +8,8 @@ on:
 
 jobs:
   build:
-    runs-on: [ ubuntu-latest, windows-latest ]
+
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.8, 3.9]
